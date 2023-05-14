@@ -1,0 +1,41 @@
+.about-container {
+    height: 100vh;
+}
+
+.about-header {
+    color: #DEB992;
+    font-size: 9vw;
+    margin: 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    margin-left: 1%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.me {
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.me:hover {
+    box-shadow: 0 0 20px white;
+}
+
+.bio {
+    width: 50%;
+    color: #DEB992;
+    font-size: 1.5vw;
+}
+

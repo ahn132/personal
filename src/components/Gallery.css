@@ -1,0 +1,47 @@
+.gallery {
+    flex: 0 0 auto;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    width: 75%;
+    margin: auto;
+    border: 10px solid #DEB992;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.photo-nav {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.left {
+    color: #DEB992;
+    font-size: 4vw;
+    display: inline-block;
+    transition: transform 1s;
+}
+
+.left:hover {
+    color: #0c324a;
+    transform: translate(-10px, 0);
+}
+
+.right {
+    color: #DEB992;
+    font-size: 4vw;
+    display: inline-block;
+    transition: transform 1s;
+}
+
+.right:hover {
+    color: #0c324a;
+    transform: translate(10px, 0);
+}

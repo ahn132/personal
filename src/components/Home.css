@@ -1,0 +1,33 @@
+.home {
+    height: 50vh;
+    background-color: #051622;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+.intro-1 {
+    color: #DEB992;
+    margin: 0;
+    font-size: 9vw;
+    opacity: 0;
+}
+
+.fade-intro-1 {
+    animation: 3s ease-in-out fadeIn forwards;
+}
+
+.intro-2 {
+    color: #DEB992;
+    margin: 0;
+    font-size: 9vw;
+    opacity: 0;
+
+}
+
+.fade-intro-2 {
+    animation: 3s ease-in-out fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0; font-size: 5vw;}
+    100% {opacity: 1; font-size: 9vw;}
+}

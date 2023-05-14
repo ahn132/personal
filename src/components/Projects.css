@@ -1,0 +1,59 @@
+.projects-container {
+    height: 100vh;
+}
+
+.projects-header {
+    margin-top: 0;
+    margin-bottom: 5vw;
+    font-size: 9vw;
+    color: #DEB992;
+}
+
+.cursor {
+    color: #DEB992;
+    font-size: 9vw;
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0% {opacity: 0}
+    50% {opacity: 100%}
+    100% {opacity: 0}
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+
+.project {
+    margin: auto;
+    padding: 1vw;
+    color: #DEB992;
+    background-color: #0c324a;
+    box-shadow: 5px 5px 5px #DEB992;
+    aspect-ratio: 1 / 1;
+    height: 35vw;
+    animation: slide 10s infinite;
+}
+
+.project-desc {
+    width: 100%;
+    font-size: 20px;
+    margin-right: 2vw;
+    vertical-align: bottom;
+}
+
+.project-img {
+    height: 50%
+}
+
+@keyframes slide{
+    0% {translate: 100vw 0}
+    15% {translate: 0 0}
+    85% {translate: 0 0}
+    100%{translate: -100vw 0}
+}
+
+
+
