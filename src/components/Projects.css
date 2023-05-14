@@ -33,12 +33,11 @@
     background-color: #0c324a;
     box-shadow: 5px 5px 5px #DEB992;
     aspect-ratio: 1 / 1;
-    height: 35vw;
-    animation: slide 10s infinite;
+    height: 60vh;
 }
 
 .project-title {
-    font-size: 1.5vw;
+    font-size: 3vh;
     margin-top: 0;
     margin-bottom: 1vw;
 }
@@ -46,13 +45,20 @@
 
 .project-desc {
     width: 100%;
-    font-size: 1.5vw;
-    margin-right: 2vw;
+    font-size: 2.5vh;
     vertical-align: bottom;
 }
 
 .project-img {
     height: 50%
+}
+
+.projects-animate {
+    animation: slide 10s infinite;
+}
+
+.projects-hide {
+    translate: 100vw 0;
 }
 
 @keyframes slide{

@@ -9,6 +9,7 @@
     margin: 0;
     font-size: 9vw;
     opacity: 0;
+    backface-visibility: hidden;
 }
 
 .fade-intro-1 {
@@ -20,7 +21,7 @@
     margin: 0;
     font-size: 9vw;
     opacity: 0;
-
+    backface-visibility: hidden;
 }
 
 .fade-intro-2 {

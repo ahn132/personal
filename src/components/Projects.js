@@ -7,7 +7,7 @@ import marketplace_img from "../assets/marketplace.png"
 import pokedex_img from "../assets/pokedex.png"
 import {useState} from "react";
 
-function Projects() {
+function Projects(props) {
 
     //descriptions for individual projects
     const marketplace_desc = "This project is a fully functional marketplace where buyers and sellers can " +
@@ -44,7 +44,7 @@ function Projects() {
                     cursorClassName: "cursor",
                 }}
             />
-            <div className="project" onAnimationIteration={nextProject}>
+            <div className={`project ${props.page === 1 ? "projects-animate" : "projects-hide"}`} onAnimationIteration={nextProject}>
                 <p className="project-title">{names[projectIndex]}</p>
                 <img className="project-img" src={images[projectIndex]} alt="gallery"/>
                 <p className="project-desc">{descriptions[projectIndex]}</p>
