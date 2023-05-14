@@ -1,5 +1,5 @@
 import './App.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 import Home from "./components/Home"
 import Projects from "./components/Projects"
@@ -11,7 +11,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 function App() {
     const[scrollPosition, setScrollPosition] = useState(0);
     const[page, setPage] = useState(0)
-    window.scroll(0, scrollPosition)
+    useEffect(() => {
+        window.scroll(0, scrollPosition)
+    })
 
     function goUp() {
         if (scrollPosition !== 0) {
