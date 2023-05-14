@@ -1,3 +1,1 @@
-#051622
-#1BA098
-#DEB992
+Personal website made using React
