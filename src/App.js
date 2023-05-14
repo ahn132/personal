@@ -20,7 +20,7 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             window.scrollTo(0, 0);
-        }, 0);
+        }, 20);
     }, []);
 
 
@@ -51,7 +51,7 @@ function App() {
         <>
             <FontAwesomeIcon className={`up ${scrollPosition !== 0 ? "show": ""}`} icon={faArrowUp} size="2xl" onClick={goUp}/>
             <FontAwesomeIcon className={`down ${scrollPosition !== (2 * window.innerHeight) ? "show": ""}`} icon={faArrowDown} size="2xl" onClick={goDown}/>
-            <Home page={page} ref={topElement}/>
+            <Home page={page}/>
             <Projects page={page}/>
             <About page={page}/>
         </>
