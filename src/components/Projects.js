@@ -46,7 +46,7 @@ function Projects() {
             />
             <div className="project" onAnimationIteration={nextProject}>
                 <p className="project-title">{names[projectIndex]}</p>
-                <img className="project-img" src={images[projectIndex]}/>
+                <img className="project-img" src={images[projectIndex]} alt="gallery"/>
                 <p className="project-desc">{descriptions[projectIndex]}</p>
             </div>
         </div>

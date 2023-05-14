@@ -29,10 +29,6 @@
     border-radius: 50%;
 }
 
-.me:hover {
-    box-shadow: 0 0 20px white;
-}
-
 .bio {
     width: 50%;
     color: #DEB992;

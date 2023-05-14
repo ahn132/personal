@@ -33,7 +33,7 @@ function Gallery() {
 
     return(
         <div className="gallery">
-            <img className="photo" src={photos[photoNum]}></img>
+            <img className="photo" src={photos[photoNum]} alt="sun"></img>
             <div className="photo-nav">
                 <FontAwesomeIcon className="left" onClick={prevPhoto} icon={faArrowLeft} size="2xl"/>
                 <FontAwesomeIcon className="right"  onClick={nextPhoto} icon={faArrowRight} size="2xl"/>

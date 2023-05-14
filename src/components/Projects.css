@@ -37,9 +37,16 @@
     animation: slide 10s infinite;
 }
 
+.project-title {
+    font-size: 1.5vw;
+    margin-top: 0;
+    margin-bottom: 1vw;
+}
+
+
 .project-desc {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-right: 2vw;
     vertical-align: bottom;
 }
