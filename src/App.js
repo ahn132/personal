@@ -13,12 +13,16 @@ function App() {
     const[page, setPage] = useState(0)
 
     //scrolls to current page
-    window.scrollTo(0, scrollPosition);
+    useEffect(() =>{
+        window.scroll(0, scrollPosition);
+        console.log("test");
+    })
+    //window.scrollTo(0, scrollPosition);
 
     //goes back to first page on page reload
     useEffect(() => {
         setTimeout(() => {
-            window.scrollTo(0, 0);
+            window.scroll(0, 0);
         }, 20);
     }, []);
 
@@ -27,7 +31,7 @@ function App() {
     function handleResize() {
         setPage(0)
         setScrollPosition(0)
-        window.scrollTo(0, 0)
+        window.scroll(0, 0)
     }
     window.addEventListener('resize', handleResize)
 

@@ -5,6 +5,7 @@ import Typewriter from"typewriter-effect"
 //imports for project images
 import marketplace_img from "../assets/marketplace.png"
 import pokedex_img from "../assets/pokedex.png"
+import yolov3_img from "../assets/yolov.png"
 import {useState} from "react";
 
 function Projects(props) {
@@ -16,11 +17,13 @@ function Projects(props) {
         "was written entirely in Java."
     const pokedex_desc= "This is a webpage made with React listing all pokemon using the PokeAPI. " +
         "Pokemon can also be added to the team, which is saved between sessions through Firebase"
+    const yolov3_desc = "With a team of 3 other Purdue students, we created a YOLOv3 ML model" +
+        " from scratch using PyTorch. We tested our model on the ETH and WIDER2019 datasets, with fairly good results."
 
     //arrays for names, descriptions, and images
-    const names = ["Real-Time Marketplace", "Pokedex"]
-    const descriptions = [marketplace_desc, pokedex_desc]
-    const images = [marketplace_img, pokedex_img]
+    const names = ["Real-Time Marketplace", "Pokedex", "YOLOv3"]
+    const descriptions = [marketplace_desc, pokedex_desc, yolov3_desc]
+    const images = [marketplace_img, pokedex_img, yolov3_img]
 
     //index to determine project to display
     const [projectIndex, setProjectIndex] = useState(0)
