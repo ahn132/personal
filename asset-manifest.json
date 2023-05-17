@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal/static/css/main.eeafc6c2.css",
-    "main.js": "/personal/static/js/main.76c074b3.js",
+    "main.js": "/personal/static/js/main.618c05aa.js",
     "static/js/787.88012170.chunk.js": "/personal/static/js/787.88012170.chunk.js",
     "static/media/gal5.jpg": "/personal/static/media/gal5.e27092d247a89f35ddd3.jpg",
     "static/media/gal2.JPG": "/personal/static/media/gal2.04f0829a4bb85ff300ca.JPG",
@@ -9,15 +9,16 @@
     "static/media/gal1.jpg": "/personal/static/media/gal1.a5bfd65d01dd751ea594.jpg",
     "static/media/pokedex.png": "/personal/static/media/pokedex.df91525fc5adce73bbd1.png",
     "static/media/gal3.JPG": "/personal/static/media/gal3.c19e6a3143779d6a9b27.JPG",
+    "static/media/yolov3.png": "/personal/static/media/yolov3.60c580ca84cb5934c035.png",
     "static/media/sun.jpeg": "/personal/static/media/sun.98163572b4ee6396989e.jpeg",
     "static/media/marketplace.png": "/personal/static/media/marketplace.def385444555293bf5d7.png",
     "index.html": "/personal/index.html",
     "main.eeafc6c2.css.map": "/personal/static/css/main.eeafc6c2.css.map",
-    "main.76c074b3.js.map": "/personal/static/js/main.76c074b3.js.map",
+    "main.618c05aa.js.map": "/personal/static/js/main.618c05aa.js.map",
     "787.88012170.chunk.js.map": "/personal/static/js/787.88012170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eeafc6c2.css",
-    "static/js/main.76c074b3.js"
+    "static/js/main.618c05aa.js"
   ]
 }
